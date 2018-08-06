@@ -50,6 +50,8 @@ $app->singleton(
 
 $app->register(Flipbox\LumenGenerator\LumenGeneratorServiceProvider::class);
 
+$app->register(Aws\Laravel\AwsServiceProvider::class);
+
 /*
 |--------------------------------------------------------------------------
 | Register Middleware
